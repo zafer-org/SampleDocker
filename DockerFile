@@ -1,5 +1,5 @@
-# Use the official Apache image
 FROM httpd:latest
+# Use the official Apache image
 
 LABEL ENV="5-zafer"
 
