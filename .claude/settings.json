@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker branch -a)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker fetch --all)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker ls-tree -r origin/main --name-only)",
+      "Bash(gh run *)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker remote -v)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker status)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker diff)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker log --oneline -10)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker add DockerFile)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker commit -m ' *)",
+      "Bash(git -C /Users/zaferlayik/Documents/GitHub/SampleDocker push)"
+    ]
+  }
+}
