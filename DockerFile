@@ -1,6 +1,7 @@
 # Use the official Apache image
 FROM httpd:latest
 
+LABEL ENV="testing"
 # RUN: Create a simple HTML file directly during the build
 # This overwrites the default "It works!" page
 RUN echo "<html> \
