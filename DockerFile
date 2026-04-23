@@ -12,5 +12,8 @@ RUN echo "<html> \
     </body> \
     </html>" > /usr/local/apache2/htdocs/index.html
 
+    
+
 # CMD: Start Apache in the foreground
 CMD ["httpd-foreground"]
+
